@@ -2,54 +2,58 @@
 
 body {
     background-color: #000;
-    font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
     position: relative;
     padding-bottom: 100px;
     padding-top: 20px;
 }
 
 ul {
+    height: 25px;
+    width: 95%;
+    /* Largura */
     display: flex;
     justify-content: space-between;
-    width: 95%;
-    height: 25px;
     list-style-type: none;
     position: fixed;
 }
 
 .img-topo {
-    height: 25px; /* Altura */
+    height: 25px;
+    /* Altura */
 }
 
 video {
-    width: 100vw; /* Largura */
-    min-height: 80vh; /* Altura */
+    width: 100vw;
+    /* Largura */
+    min-height: 80vh;
+    /* Altura */
 }
-
-/* VW = Minha tela e dividir em 100 pedaços */
-/* VH = partir a tela em 100 pedalos e se eu pegar 1 VH é 1 porcento da tela*/
 
 .capa {
     position: absolute;
     bottom: 20%;
+    /* TOP - CIMA, BOTTOM - BAIXO, LEFT - ESQUERDA, RIGHT- DIREITA */
     left: 5%;
-    width: 35%;    
+    width: 35%;
     z-index: 3;
 }
 
 .capa-titulo {
     color: white;
     font-size: 80px;
+    /* Tamanho da fonte */
     margin-bottom: 5px;
     font-weight: bold;
+    /* Grossura da fonte */
 }
 
 .capa-descricao {
     color: white;
     font-size: 20px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
 .link-assistir {
@@ -58,20 +62,18 @@ video {
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    text-decoration: none;
+    /* Mãosinha */
 }
 
-a.link-info {
-    color: black!important;
-    background-color: white;
+.link-info {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.35);
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
-    text-decoration: none;
-    text-decoration-color: none;
 }
 
-.imagem-carrosel {
+.imagem-carrossel {
     height: 150px;
 }
 
@@ -82,7 +84,7 @@ a.link-info {
     left: 50px;
 }
 
-.titulo-carrosel {
+.titulo-carrossel {
     color: white;
     font-size: 30px;
     margin-bottom: 10px;
@@ -100,8 +102,7 @@ a.link-info {
 
 .modal {
     display: none;
-    /* Display Block (Bloco - Ele aparece na tela */
-    /* Display None (Desaparece da Tela */
+    /* Mostrar NADA */
     position: fixed;
     z-index: 5;
     left: 0;
@@ -117,9 +118,9 @@ a.link-info {
     padding: 20px;
     width: 60%;
     color: white;
-
 }
 
-/* Classe = .
-   ID = #
-*/ 
+/* 
+    Classe = .
+    ID = #
+*/
