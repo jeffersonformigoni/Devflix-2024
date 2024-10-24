@@ -7,6 +7,7 @@ body {
     padding: 0;
     position: relative;
     padding-bottom: 100px;
+    padding-top: 20px;
 }
 
 ul {
@@ -82,6 +83,16 @@ a .link-info {
     color: white;
     font-size: 30px;
     margin-bottom: 10px;
+}
+
+.botao-som {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 4;
+    position: absolute;
+    top: 100px;
+    right: 20px;
 }
 
 /* Classe = .
